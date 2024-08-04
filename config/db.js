@@ -3,6 +3,7 @@ import pg from 'pg';
 import 'dotenv/config.js';
 
 const { Pool } = pg;
+
 const{
 DB_USER,
 DB_PASSWORD,
