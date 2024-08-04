@@ -15,7 +15,11 @@ const register = async (req, res)=> {
     res.send('User created')
 }
 
+const login = async (req,res) => {
+res.send('Login')
+}
+
 export const controller ={
-home, notFound, register
+home, notFound, register, login
 }
 

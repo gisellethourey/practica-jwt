@@ -5,6 +5,8 @@ const app = express();
 const PORT = process.env.SERVER_PORT || 3000;
 
 //Middlewares
+app.use(express.json());
+
 //Routes
 app.use('/', userRoutes)
 
